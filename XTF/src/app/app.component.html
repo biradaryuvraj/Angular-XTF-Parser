@@ -1,0 +1,6 @@
+<app-navbar></app-navbar>
+<div>
+  <!-- Add your other content here -->
+  <img *ngIf="imageURL" [src]="imageURL" alt="Processed Image">
+  <p *ngIf="imageURL">Image URL from component: {{ imageURL }}</p>
+</div>

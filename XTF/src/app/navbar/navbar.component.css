@@ -1,0 +1,53 @@
+/* navbar.component.css */
+
+/* Styling for the whole navbar component */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #9c7474;
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for the buttons in the navbar */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-left .nav-btn {
+    margin-right: 10px;
+    padding: 10px 16px;
+    border: none;
+    background-color: #40364a00;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for buttons */
+  .navbar-left .nav-btn:hover {
+    background-color: #060623;
+  }
+  
+  /* Styling for the header section (XTF Parser heading) */
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b58c8c;
+    padding: 20px;
+  }
+  
+  /* Styling for the XTF Parser heading */
+  .xtf-parser-heading {
+    margin: 0;
+    font-size: 48px;
+    color: #5d196a;
+    text-transform: uppercase;
+  }
+  
